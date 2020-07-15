@@ -2,6 +2,25 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
