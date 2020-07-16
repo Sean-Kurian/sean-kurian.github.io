@@ -23,7 +23,7 @@ body {
 }
 /*--- header ---*/
 .header {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 75%, #000000 100%), url("/images/background-image.jpg");
+  background-image: url('images/header-background.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
