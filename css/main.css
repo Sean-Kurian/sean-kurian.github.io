@@ -12,7 +12,7 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:#6ab446;
+  background:#FFFF; /*Changed stuff*/
 }
 .nav-link,
 .navbar-brand {
