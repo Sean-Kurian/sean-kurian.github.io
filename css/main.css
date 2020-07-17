@@ -5,7 +5,7 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:transparent; /*Changed stuff*/
+  background-color:transparent; /*Changed stuff*/
 }
 .nav-link,
 .navbar-brand {
