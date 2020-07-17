@@ -26,7 +26,7 @@ body {
   justify-content: flex-end;
 }
 /*--- header ---*/
-.header{
+.masthead{
   position: relative;
   width: 100%;
   height: 100vh;
@@ -38,7 +38,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.header h1{
+.masthead h1{
   font-family: 'Open Sans', 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -46,20 +46,20 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.header p{
+.masthead p{
   font-family: 'Ubuntu', sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
 
 @media only screen and (min-width:750px) {
-  .header h1{
+  .masthead h1{
     font-size: 2.75rem;
     line-height: 2.75rem;
   }
 }
 
 @media only screen and (min-width:992px) {
-  .header h1{
+  .masthead h1{
     font-size: 3.5rem;
     line-height: 3.5rem;
   }
