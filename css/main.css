@@ -108,7 +108,12 @@ body {
   background-color: #333;
   border: 1px solid #333;
 }
-
+.skills{
+    background-image: url("../images/skills.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 .skill {
     border-radius: 15px;
     text-align: center;
