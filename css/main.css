@@ -10,6 +10,7 @@ body {
 .nav-link,
 .navbar-brand {
   color: rgba(255, 255, 255, 0.7) !important; 
+  font-family: 'Open Sans', 'Ubuntu', sans-serif;
   cursor: pointer;
 }
 .nav-link {
