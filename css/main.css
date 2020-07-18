@@ -16,7 +16,7 @@ body {
   margin-right: 1em !important;
 }
 .nav-link:hover {
-  border-bottom:#fff; 
+  border-bottom:#fff !important; 
 }
 .navbar-collapse {
   justify-content: flex-end;
