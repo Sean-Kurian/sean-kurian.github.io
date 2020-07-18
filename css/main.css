@@ -140,7 +140,7 @@ h1.contact-white, .contact div > p {
 .contact-icons {
     text-decoration: none;
     padding: 20px;
-    color: #74b1be;
+    /*color: #74b1be;*/
     transition: all 0.3s ease;
 }
 .contact-icons:hover {
