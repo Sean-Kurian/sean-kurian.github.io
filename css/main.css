@@ -114,6 +114,8 @@ body {
     text-align: center;
     padding: 8px;
     margin: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff; 
 }
 
 /* START OF CONTACTS SECTION */
