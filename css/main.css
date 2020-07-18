@@ -13,7 +13,7 @@ body {
 }
 .nav-link,
 .navbar-brand {
-  color: rgba(255, 255, 255, 0.7) !important; 
+  color: rgba(255, 255, 255, 0.7); 
   font-family: 'Open Sans', 'Ubuntu', sans-serif;
   cursor: pointer;
 }
@@ -21,7 +21,7 @@ body {
   margin-right: 1em !important;
 }
 .nav-link:hover {
-  color: #fff !important; 
+  color: #fff; 
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -114,8 +114,8 @@ body {
     text-align: center;
     overflow-x: hidden;
     background: #780206;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000, #fff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #000, #fff),  !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000, #fff),  !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 50px;
     /*transform: rotate(-3deg);*/
     width: 100%;
