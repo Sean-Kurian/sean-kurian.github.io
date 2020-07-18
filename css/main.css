@@ -105,14 +105,42 @@ body {
   border: 1px solid #333;
 }
 
-.page-footer {
-  background-color: #222;
-  color: #ccc;
-  padding: 60px 0 30px;
+/* START OF CONTACTS SECTION */
+.contact {
+    text-align: center;
+    overflow-x: hidden;
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 50px;
+    /*transform: rotate(-3deg);*/
+    width: 100%;
+    height: auto;
 }
-.footer-copyright {
-  color: #666;
-  padding: 40px 0;
+h1.contact-white {
+    font-size: 250%;
+}
+h1.contact-white, .contact div > p {
+    color: #fff;
+    font-weight: 300;
+}
+.contact > div {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding: 50px 0;
+    overflow-y: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact-icons {
+    text-decoration: none;
+    padding: 20px;
+    color: #74b1be;
+    transition: all 0.3s ease;
+}
+.contact-icons:hover {
+    color: #fff;
 }
 
 @media (max-width: 575.98px) {
@@ -131,8 +159,7 @@ body {
   
   .description p {
     font-size: 1.2rem;
-  }
-  
+  }  
   .features {
     margin: 0;
   }
