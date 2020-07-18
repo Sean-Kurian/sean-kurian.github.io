@@ -111,7 +111,7 @@ body {
 .contact {
     text-align: center;
     overflow-x: hidden;
-    /*background: #780206;  /* fallback for old browsers */*/
+    background: #780206;  /* fallback for old browsers */*/
     background: linear-gradient(to right,#000,#fff) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 50px;
     /*transform: rotate(-3deg);*/
