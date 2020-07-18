@@ -117,8 +117,8 @@ body {
 .skill {
     border-radius: 15px;
     text-align: center;
-    padding: 8px;
-    margin: 4px;
+    padding: 16px;
+    margin: 16px;
     font-family: 'Ubuntu', sans-serif;
 }
 
