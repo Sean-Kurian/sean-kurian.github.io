@@ -109,6 +109,13 @@ body {
   border: 1px solid #333;
 }
 
+.skill {
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+}
+
 /* START OF CONTACTS SECTION */
 .contact {
     text-align: center;
@@ -145,6 +152,7 @@ h1.contact-white, .contact div > p {
 .contact-icons:hover {
     color: #fff;
 }
+
 
 @media (max-width: 575.98px) {
   .description {
