@@ -146,6 +146,9 @@ h1.contact-white, .contact div > p {
 .contact-icons:hover {
     color: #fff;
 }
+.copyright{
+    font-size:80%; 
+}
 
 @media (max-width: 575.98px) {
   .description {
