@@ -5,11 +5,7 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
-    border-bottom: none;
-    background-color: 000000;
-    transition: 0.4s; /*Changed stuff*/
+  background:#000000;
 }
 .nav-link,
 .navbar-brand {
